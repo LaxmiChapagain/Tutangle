@@ -5,7 +5,7 @@ body {
 font-family:"Roboto Slab"
 }
 .header{
-    background-color: aqua;
+    background-color:#7dd8e8;
     padding-left:28px;
     padding-right:28px;
     padding-top:24px;
@@ -38,11 +38,49 @@ font-family:"Roboto Slab"
 }
 .header3> input {
     width:380px
+   
 }
 
 .sub_header2{
     text-align:right;
 }
+.navigation_content {
+    background-color: #f5f5f5;
+    padding-left:28px;
+    padding-right:28px;
+    padding-top:16px;
+    padding-bottom:16px;
+    
+}
+.navigation_content > ul {
+    display: inline-block;
+    width:864px;
+
+}
+.navigation_content >ul > li{
+    display:inline-block;
+    margin-right: 29px;
+    
+
+}
+.navigation_content > .navright {
+    display:inline-block;
+}
+
+
+.navright > div {
+    display: inline-block;
+}
+.image1 > span{
+    margin-left: 2px;
+}
+.image2 > span{
+    margin-left: 8px;
+}
+.image2{
+    margin-left: 44px;
+}
+
 
 
 
