@@ -80,7 +80,31 @@ font-family:"Roboto Slab"
 .image2{
     margin-left: 44px;
 }
-
-
+.mainbody {
+margin-top: 40px;
+margin-left: 29px;
+}
+.mainbody_left {
+    width: 255px;
+    /* height:779px */
+}
+.mainbody > div{
+    display:inline-block;
+}
+.mainbody_left1 {
+    background-color: #2fc1d9;
+    display: block;
+    /* height: 12px;  */
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.sub1_left1{
+    background-color: #f5f5f5;
+    display: block;
+    
+    /* height: 54px;  */
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
 
 
