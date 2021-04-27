@@ -82,6 +82,7 @@ font-family:"Roboto Slab"
 .mainbody {
 margin-top: 40px;
 margin-left: 29px;
+background: url("body-background-repeat.png") repeat-y;
 }
 .mainbody_left {
     width: 255px;
@@ -103,8 +104,8 @@ margin-left: 29px;
 .mainbody_left1 >ul >li{
     background-color: #f5f5f5;
     display: block;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     padding-left: 16px;
 }
 .mainbody_left1 >ul >li>img{
@@ -132,6 +133,7 @@ margin-left: 29px;
     display: block;
     padding-top: 7px;
     padding-bottom: 7px;
+    padding-left:16px ;
 }
 .sub1_left2 >ul>li>img{
     float: right;
@@ -157,9 +159,12 @@ margin-left: 29px;
     padding-top: 18px;
     padding-left: 17px;
 }
+.aloncoe > div{
+    display: inline-block;
+}
 
 .footer{
-    background-color: #dddddd;
+    background-color: grey;
     height:58px;
 }
 .footer >div {
@@ -174,4 +179,43 @@ margin-left: 29px;
     float: right;
     margin-right: 29px;
     padding-top: 24px;
+}
+.mainbody_center{
+    width: 693px;
+    margin-left: 43px;
+    
+}
+.subaloncoe >p > span{
+    display: inline;
+    color:#2fc1d9;
+}
+.subaloncoe{
+    vertical-align: top; 
+}
+.marypilot >div{
+    display: inline-block;
+    vertical-align: top;
+}
+.jimroy >div{
+    display: inline-block;
+    vertical-align: top;
+}
+.johnpetermoise >div{
+    display: inline-block;
+    vertical-align: top;
+}
+.marrianegig >div{
+    display: inline-block;
+    vertical-align: top;
+}
+.footer{
+    color: white;
+}
+.mainbody_center >span{
+    font-weight: bold;
+}
+.header3>div{
+    display: inline-block;
+    vertical-align: top;
+
 }
